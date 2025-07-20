@@ -3,18 +3,22 @@ import Header from "../../components/header/comp";
 import Footer from "../../components/footer/comp";
 import { useAppContext } from "../../Application";
 
-export default function HomeView(){   
-    const {setTitle} = useAppContext();
-    useEffect(()=>{
-        setTitle("Добро пожаловать!")
-    }, [setTitle]);
+export default function HomeView() {   
+    const { setTitle, labels } = useAppContext();
+    
+    useEffect(() => {
+        setTitle(labels.title_welcome);
+    }, [setTitle, labels]);
+    
     return (
         <>
-        <Header />
-            <main>
-                <h1>In developng</h1>
+            <Header />
+            <main className="page">
+                <h1>{labels["project_name"]}</h1>
+                <p>{labels["project_desc"]}</p>
+                <p className="mini">{labels["project_warn"]}</p>
             </main>
-        <Footer />
+            <Footer />
         </>
-    )
+    );
 }

@@ -6,6 +6,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   cursor:default;
+  text-decoration: none;
 }
 *::-webkit-scrollbar {
   display: none;
@@ -13,7 +14,9 @@
 
 
 :root{
-  --bg: #fff;
+  --bg: #f2f4f8;
+  --bg-header: #ffffff;
+  --akcent: #4b74e4;
   --color: #131313;
 }
 
@@ -23,8 +26,37 @@ html, body{
   color: var(--color);
   font-size: 16px;
 }
+a{
+  color: var(--akcent);
+}
 
 main{
   padding: 10px 20px;
   min-height: 80vh;
+}
+main.page{
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.language-switcher {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.language-switcher button {
+    background: none;
+    border: 1px solid var(--bg-header);
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.language-switcher button.active {
+    background: var(--bg-header);
+    color:var(--akcent);
+    border-color: var(--bg-header);
 }

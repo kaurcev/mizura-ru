@@ -2,6 +2,10 @@
   "name": "mizura-ru",
   "version": "0.1.0",
   "versionstate": "alfa",
+  "author": "Alexsandr Kaurcev",
+  "public_api": "https://api.mizura.ru",
+  "kaurcevdev": "https://kaurcev.dev",
+  "github": "https://git.kaurcev.dev/mizura-ru",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

@@ -1,0 +1,10 @@
+{
+    "project_name": "Mizura Platform",
+    "project_desc": "Our open-source messaging solution based on NodeJS and ReactJS",
+    "project_warn": "Currently, platform access is limited to a select group of users during the testing phase.",
+    "title_welcome": "Welcome!",
+    "project_info": "Project Information",
+    "title_notfound": "Page not found",
+    "info_notFound": "This page has been deleted or did not exist at all.",
+    "to_home": "To home"
+}

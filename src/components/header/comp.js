@@ -2,13 +2,13 @@ import { useAppContext } from '../../Application';
 import './style.css';
 
 const Header = () => {
-    const {navigate} = useAppContext();
+    const {navigate, labels} = useAppContext();
     return (
         <>
             <header>
                 <div className="header">
                     <div onClick={()=>navigate("/")} className='title'>
-                        Mizura Platform
+                        {labels["project_name"]}
                     </div>
                 </div>
             </header>
