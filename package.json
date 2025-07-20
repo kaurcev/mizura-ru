@@ -1,7 +1,7 @@
 {
   "name": "mizura-ru",
   "version": "0.1.0",
-  "versionstate": "beta",
+  "versionstate": "alfa",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
