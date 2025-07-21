@@ -2,4 +2,8 @@ footer{
     opacity: 0.6;
     font-size: 0.8rem;
     text-align: center;
+    min-height: 10vh;
+}
+footer .footer{
+    padding: 10px;
 }

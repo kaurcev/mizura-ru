@@ -27,6 +27,7 @@ export const AppProvider = ({ children }) => {
   }, [language]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = `${title} | ${labels.project_name}`;
   }, [title, labels]);
 
