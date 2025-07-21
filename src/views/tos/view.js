@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Header from "../../components/header/comp";
 import Footer from "../../components/footer/comp";
 import { useAppContext } from "../../Application";
+import { Link } from "react-router-dom";
 
 export default function TosView() {
     const { setTitle, labels } = useAppContext();
@@ -37,7 +38,7 @@ export default function TosView() {
 
                 <section>
                     <h2>3. Конфиденциальность и безопасность</h2>
-                    <p>Мы не продаем ваши персональные данные. Подробнее в нашей <a href="/privacy">Политике конфиденциальности</a>.</p>
+                    <p>Мы не продаем ваши персональные данные. Подробнее в нашей <Link to="/privacy">Политике конфиденциальности</Link>.</p>
                     <ul>
                         <li>Мы используем стандартные меры безопасности для защиты ваших данных</li>
                         <li>Вы можете управлять видимостью своего профиля в настройках</li>
