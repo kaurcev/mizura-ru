@@ -1,4 +1,8 @@
-# Клиентская часть Mizura Platform
+![Static Badge](https://img.shields.io/badge/kaurcev.dev-kaurcev-kaurcev)
+![GitHub top language](https://img.shields.io/github/languages/top/kaurcev/mizura-ru)
+![GitHub](https://img.shields.io/github/license/kaurcev/mizura-ru)
+![GitHub Repo stars](https://img.shields.io/github/stars/kaurcev/mizura-ru)
+![GitHub issues](https://img.shields.io/github/issues/kaurcev/mizura-ru)
 
 Этот открытый проект представляет собой интерфейсную реализацию платформы Mizura  
 Данная информация продублирована на [git складе на kaurcev.dev](https://git.kaurcev.dev/mizura-ru/)
