@@ -7,11 +7,19 @@ header {
     z-index: 1000;
     background-color: var(--bg-header);
     box-shadow: 0 4px 10px 0 #c2d7ff1f;
+    display: flex;
+    align-items: center;
 }
 
-.header {
+header .header {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+header .header .logo {
+    max-height: 45px;
 }
